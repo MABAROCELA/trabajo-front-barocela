@@ -17,7 +17,6 @@ function App() {
       <div>
         <Navibar />
         <Routes>
-          <Route index element={<Home />}></Route>
           <Route path='/' element={<Home />}></Route>
           <Route path='/Login' element={<Login />}></Route>
           <Route path='/CardProducto' element={<CardProducto />}></Route>
