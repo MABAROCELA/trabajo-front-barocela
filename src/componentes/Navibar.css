@@ -12,4 +12,16 @@
 
 .logo-perita{
     margin-left: 1.25rem;
+    width: 6.25rem;
+    height:auto;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .logo-perita{
+        width: 4.375rem;
+    }
+
+    .rrss{
+        overflow: hidden;
+    }
 }
