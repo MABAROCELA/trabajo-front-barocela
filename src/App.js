@@ -15,8 +15,9 @@ function App() {
   return (
     <>
       <Navibar />
-      <Routes basename="/trabajo-front-barocela">
+      <Routes>
         <Route path='/' element={<Home />}></Route>
+        <Route path='/trabajo-front-barocela' element={<Home />}></Route>
         <Route path='/Login' element={<Login />}></Route>
         <Route path='/CardProducto' element={<CardProducto />}></Route>
         <Route path='/ListaProductos' element={<ListaProductos productos={productos} />}></Route>
