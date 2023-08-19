@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/trabajo-front-barocela/static/css/main.c7e46086.css",
+    "main.js": "/trabajo-front-barocela/static/js/main.6455a92f.js",
+    "static/js/787.f148bb32.chunk.js": "/trabajo-front-barocela/static/js/787.f148bb32.chunk.js",
+    "static/media/foto2.jpg": "/trabajo-front-barocela/static/media/foto2.386cfac7b55c4ea4760d.jpg",
+    "static/media/foto3.jpg": "/trabajo-front-barocela/static/media/foto3.8c87ae635f203d247f41.jpg",
+    "static/media/foto1.jpg": "/trabajo-front-barocela/static/media/foto1.987a2bb0b38aa559d4ca.jpg",
+    "static/media/foto5.jpg": "/trabajo-front-barocela/static/media/foto5.cbc3f82647fbe365638f.jpg",
+    "static/media/foto4.jpg": "/trabajo-front-barocela/static/media/foto4.05b67298a368f1f380d6.jpg",
+    "static/media/background.png": "/trabajo-front-barocela/static/media/background.65e5ad71aa0efd5f0789.png",
+    "static/media/foto0.jpg": "/trabajo-front-barocela/static/media/foto0.f52adad661db3ef001e3.jpg",
+    "static/media/logo-perita2.jpg": "/trabajo-front-barocela/static/media/logo-perita2.bbec7a66dd321451cf97.jpg",
+    "index.html": "/trabajo-front-barocela/index.html",
+    "main.c7e46086.css.map": "/trabajo-front-barocela/static/css/main.c7e46086.css.map",
+    "main.6455a92f.js.map": "/trabajo-front-barocela/static/js/main.6455a92f.js.map",
+    "787.f148bb32.chunk.js.map": "/trabajo-front-barocela/static/js/787.f148bb32.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7e46086.css",
+    "static/js/main.6455a92f.js"
+  ]
+}
