@@ -8,7 +8,7 @@ const CardProducto = ({ producto }) => {
     <Card className="producto-card">
       <Card.Img
         variant="top"
-        src={`${process.env.PUBLIC_URL}/Productos/${producto.fotoPrincipal}`}
+        src={`${process.env.PUBLIC_URL}/productos/${producto.fotoPrincipal}`}
         alt={producto.nombre}
       />
       <Card.Body className="card-info">
