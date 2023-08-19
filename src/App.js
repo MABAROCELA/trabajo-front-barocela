@@ -14,17 +14,15 @@ import ApiClima from './componentes/ApiClima';
 function App() {
   return (
     <>
-      <div>
-        <Navibar />
-        <Routes>
-          <Route path='/' element={<Home />}></Route>
-          <Route path='/Login' element={<Login />}></Route>
-          <Route path='/CardProducto' element={<CardProducto />}></Route>
-          <Route path='/ListaProductos' element={<ListaProductos productos={productos} />}></Route>
-          <Route path="/DetalleProducto/:codigo" element={<DetalleProducto productos={productos} />} />
-          <Route path='/ApiClima' element={<ApiClima />}></Route>
-        </Routes>
-      </div>
+      <Navibar />
+      <Routes basename="/trabajo-front-barocela">
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/Login' element={<Login />}></Route>
+        <Route path='/CardProducto' element={<CardProducto />}></Route>
+        <Route path='/ListaProductos' element={<ListaProductos productos={productos} />}></Route>
+        <Route path="/DetalleProducto/:codigo" element={<DetalleProducto productos={productos} />} />
+        <Route path='/ApiClima' element={<ApiClima />}></Route>
+      </Routes>
       <Footer />
     </>
   );
