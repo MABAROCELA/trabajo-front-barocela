@@ -37,7 +37,7 @@ const DetalleProducto = ({ productos }) => {
                 <li key="main">
                   <img
                     onClick={() => handleThumbnailClick(producto.fotoPrincipal)}
-                    src={`${process.env.PUBLIC_URL}/Productos/${producto.fotoPrincipal}`}
+                    src={`${process.env.PUBLIC_URL}/productos/${producto.fotoPrincipal}`}
                     id="main_product_image"
                     alt={`${producto.nombre} - Foto Principal`}
                   />
@@ -46,7 +46,7 @@ const DetalleProducto = ({ productos }) => {
                   <li key={index}>
                     <img
                       onClick={() => handleThumbnailClick(foto)}
-                      src={`${process.env.PUBLIC_URL}/Productos/${foto}`}
+                      src={`${process.env.PUBLIC_URL}/productos/${foto}`}
                       alt={`${producto.nombre} - Foto ${index + 2}`}
                     />
                   </li>
@@ -57,7 +57,7 @@ const DetalleProducto = ({ productos }) => {
 
             <div className="main_image">
               <img
-                src={`${process.env.PUBLIC_URL}/Productos/${mainProductImage}`}
+                src={`${process.env.PUBLIC_URL}/productos/${mainProductImage}`}
                 id="main_product_image"
                 alt={`${producto.nombre} - Foto Principal`}
               />
